@@ -4,7 +4,7 @@ Write a function that takes a list of strings an prints them, one per line, in a
 
 For example the list **["Hello", "World", "in", "a", "frame"]** gets printed as:
 
-```shell
+```
 
 *********
 * Hello *
@@ -18,7 +18,7 @@ For example the list **["Hello", "World", "in", "a", "frame"]** gets printed as:
 
 Another example with the list **["Hello", "Mercury", "in", "a", "box"]** gets printed as:
 
-```shell
+```
 
 ***********
 * Hello   *
