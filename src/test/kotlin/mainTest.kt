@@ -4,11 +4,22 @@ import org.junit.Test
 
 internal class MainTest {
     @Test
-    fun `can translate a simple key`() {
-        val output = tapSystemOut {
-            main(arrayOf("Hello World!"))
+    fun `can fit a box around a sentence`() {
+        val result = tapSystemOut {
+            main("Hello Mercury in a box")
         }.trim()
 
-        Assert.assertEquals("Hello World!", output)
+        val expected =
+            """
+***********
+* Hello   *
+* Mercury *
+* in      *
+* a       *
+* box     *
+***********
+""".trimIndent()
+
+        Assert.assertEquals(expected, result)
     }
 }

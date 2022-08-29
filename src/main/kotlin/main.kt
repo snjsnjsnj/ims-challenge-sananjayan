@@ -1,3 +1,4 @@
-fun main(args: Array<String>) {
-    println(args.first())
+fun main(args: String) {
+    // TODO: solve challenge and make test green :)
+    println(args)
 }
